@@ -249,32 +249,35 @@ html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font-family:
 <div class="layout">
   <!-- 🧱 Sidebar -->
   <aside class="sidebar" data-collapsed="false" id="sidebar">
-    <nav class="nav">
-      <a class="nav-item active" data-tooltip="Dashboard" id="dashboardBtn" href="javascript:void(0)">
-        <i class="bi bi-speedometer2"></i><span>Dashboard</span>
-      </a>
-      <div class="nav-label">Operations</div>
-      <a class="nav-item" data-tooltip="Sow Dashboard" href="/hoglog_piggery/modules/sow/sow_dashboard.php">
-        <i class="bi bi-piggy-bank"></i><span>Sow Dashboard</span>
-      </a>
-      <a class="nav-item" data-tooltip="Fatteners Dashboard" href="/hoglog_piggery/modules/batches/dashboard/batch_fattener.php">
-        <i class="bi bi-boxes"></i><span>Fatteners Dashboard</span>
-      </a>
-      <a class="nav-item" data-tooltip="Piglets Dashboard" href="/hoglog_piggery/modules/piglets/piglets_dashboard.php">
-        <i class="bi bi-heart-pulse"></i><span>Piglets Dashboard</span>
-      </a>
-      <a class="nav-item" data-tooltip="Expenses Dashboard" href="/hoglog_piggery/modules/farmwide_expenses/expenses_dashboard.php">
-        <i class="bi bi-cash-stack"></i><span>Expenses Dashboard</span>
-      </a>
-      <a class="nav-item" data-tooltip="Feed Dashboard" href="/hoglog_piggery/modules/farm_wide_feed/feed_dashboard.php">
-        <i class="bi bi-bag-check"></i><span>Feed Dashboard</span>
-      </a>
-      <div class="spacer"></div>
-      <a class="nav-item danger" data-tooltip="Logout" href="/hoglog_piggery/modules/users/user_logout.php">
-        <i class="bi bi-box-arrow-right"></i><span>Logout</span>
-      </a>
-    </nav>
-  </aside>
+  <nav class="nav">
+    <a class="nav-item active" data-tooltip="Dashboard" id="dashboardBtn" href="javascript:void(0)">
+      <i class="bi bi-speedometer2"></i><span>Dashboard</span>
+    </a>
+    <div class="nav-label">Operations</div>
+    <a class="nav-item" data-tooltip="Sow Dashboard" href="/hoglog_piggery/modules/sow/sow_dashboard.php">
+      <i class="bi bi-piggy-bank"></i><span>Sow Dashboard</span>
+    </a>
+    <a class="nav-item" data-tooltip="Fatteners Dashboard" href="/hoglog_piggery/modules/batches/dashboard/batch_fattener.php">
+      <i class="bi bi-boxes"></i><span>Fatteners Dashboard</span>
+    </a>
+    <a class="nav-item" data-tooltip="Piglets Dashboard" href="/hoglog_piggery/modules/piglets/piglets_dashboard.php">
+      <i class="bi bi-heart-pulse"></i><span>Piglets Dashboard</span>
+    </a>
+    <!-- ✅ Updated link -->
+    <a class="nav-item" data-tooltip="Expenses Dashboard" href="http://localhost/hoglog_piggery/modules/batches/expenses/expenses_dashboard.php">
+      <i class="bi bi-cash-stack"></i><span>Expenses Dashboard</span>
+    </a>
+    <a class="nav-item" data-tooltip="Feed Dashboard" href="/hoglog_piggery/modules/farm_wide_feed/feed_dashboard.php">
+      <i class="bi bi-bag-check"></i><span>Feed Dashboard</span>
+    </a>
+    <div class="spacer"></div>
+    <a class="nav-item danger" data-tooltip="Logout" href="/hoglog_piggery/modules/users/user_logout.php">
+      <i class="bi bi-box-arrow-right"></i><span>Logout</span>
+    </a>
+    
+  </nav>
+</aside>
+
 
   <!-- 📊 Main Area -->
   <main class="content">
